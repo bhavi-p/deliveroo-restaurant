@@ -22,7 +22,7 @@ function RestaurantList(props) {
   const [state, setState] = useState(cart)
   const GET_RESTAURANTS = gql`
     query {
-      restaurants {
+      restaurant {
         id
         name
         description
