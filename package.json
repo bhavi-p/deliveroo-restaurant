@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start --port 3000"
   },
   "dependencies": {
     "@apollo/client": "^3.2.4",
@@ -16,10 +16,14 @@
     "graphql": "^15.3.0",
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.2.1",
-    "next": "9.5.5",
+    "next": "^9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "reactstrap": "^8.6.0"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
   },
   "description": "Exercise05 is full Shopping Cart with Stripe Billing",
   "main": "index.js",
