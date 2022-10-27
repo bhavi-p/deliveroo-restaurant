@@ -11,7 +11,7 @@ import firebase from "firebase/compat/app";
 import { auth } from '../components/firebase'
 
 const Layout = (props) => {
-const title = "GoodEats Delivery";
+const title = "Welcome to Deliveroo";
 const { user, setUser } = useContext(AppContext);
 const appContext = useContext(AppContext);
 
