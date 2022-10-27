@@ -10,12 +10,12 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDuZ-LwCCSahX6j2T8QdUmq8mR4XZkqhmw",
-  authDomain: "goodeats-delivery.firebaseapp.com",
-  projectId: "goodeats-delivery",
-  storageBucket: "goodeats-delivery.appspot.com",
-  messagingSenderId: "851617425804",
-  appId: "1:851617425804:web:d55699e0562b2b4e1d8ea9"
+  apiKey: "AIzaSyDkm97VBg-lGsqwbfAyATcuRn22PDPhSsY",
+  authDomain: "goog-auth-5adb0.firebaseapp.com",
+  projectId: "goog-auth-5adb0",
+  storageBucket: "goog-auth-5adb0.appspot.com",
+  messagingSenderId: "808254345195",
+  appId: "1:808254345195:web:6e53ff5b0625454bbad3ae"
 };
 
 // Initialize Firebase 
